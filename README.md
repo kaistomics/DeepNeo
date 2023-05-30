@@ -16,7 +16,7 @@ References :
 
 Webserver for an updated version of DeepNeo is available at https://deepneo.net
 
-*The webserver is currently undergoing maintenance. It will be available again on 5/26/2023
+*The webserver is currently undergoing maintenance. It will be available again on 6/6/2023
 
 ![alt text](deepneo-web.png)
 
