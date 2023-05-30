@@ -64,7 +64,7 @@ def HeaderOutput(lstin, outname):
 
 def modifyMatrix(affydatin_test, seqdatin,outfile):
 	hladicin = {x.strip().split('\t')[0]: x.strip().split('\t')[1] for x in open(seqdatin).readlines()}
-	aalst = open('/home/omics/DATA0/02_jeongyeon/Projects/DeepNeo_FINAL/data/Calpha.txt').readlines()
+	aalst = open('data/Calpha.txt').readlines()
 	aadicin = {}
 	aaseq0 = aalst[0].strip().split('\t')
 	for aain in aalst[1:]:
@@ -88,11 +88,11 @@ print '\nInput file: ', Datname, '\n'
 
 
 if mhcclass=='class1' :
-    modifyMatrix(Datname, '/home/omics/DATA0/02_jeongyeon/Projects/DeepNeo_FINAL/data/All_prot_alignseq_C_369.dat',outputfile)
+    modifyMatrix(Datname, 'data/All_prot_alignseq_C_369.dat',outputfile)
     print 'The running is completed!\n'
 
 
 if mhcclass=='class2' :
-    modifyMatrix(Datname, '/home/omics/DATA0/02_jeongyeon/Projects/DeepNeo_FINAL/data/MHC2_prot_alignseq.dat',outputfile)
+    modifyMatrix(Datname, 'data/MHC2_prot_alignseq.dat',outputfile)
     print 'The running is completed!\n'
 
