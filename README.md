@@ -26,3 +26,7 @@ Webserver for an updated version of DeepNeo is available at https://deepneo.net
 
 ## Download and install:
 
+Please download this github repo.
+The code can be run with Python=2.7 and Theano=1.0.4
+
+
