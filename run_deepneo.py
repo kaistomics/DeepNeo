@@ -7,22 +7,22 @@ Resultname = sys.argv[4]
 
 if mhc_class == "class1"  and predtype== 'tcr'  :
     os.system('THEANO_FLAGS=mode=FAST_RUN,device=cuda3,floatX=float32 ' \
-        +'python /home/omics/DATA0/02_jeongyeon/Projects/DeepNeo_FINAL/cnn.py ' \
-        +'/home/omics/DATA0/02_jeongyeon/Projects/DeepNeo_FINAL/data/tcr1-pan.pkl.gz ' \
+        +'python cnn.py ' \
+        +'data/tcr1-pan.pkl.gz ' \
         + Inputname + ' ' \
         + Resultname)
     print ("\nThe running is completed!\n")
 if mhc_class=="class1" and predtype=='mhc':
-	os.system('THEANO_FLAGS=mode=FAST_RUN,device=cuda3,floatX=float32 python /home/omics/DATA0/02_jeongyeon/Projects/DeepNeo_FINAL/cnn.py /home/omics/DATA0/02_jeongyeon/Projects/DeepNeo_FINAL/data/mhc1-pan.pkl.gz '+Inputname+' '+Resultname)
+	os.system('THEANO_FLAGS=mode=FAST_RUN,device=cuda3,floatX=float32 python cnn.py data/mhc1-pan.pkl.gz '+Inputname+' '+Resultname)
 	print("\nThe running is completed!\n")
 
 if mhc_class=="class2" and predtype=='mhc':
-	os.system('THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python /home/omics/DATA0/02_jeongyeon/Projects/DeepNeo_FINAL/cnn.py /home/omics/DATA0/02_jeongyeon/Projects/DeepNeo_FINAL/data/mhc2-pan.pkl.gz '+Inputname+' '+Resultname)
+	os.system('THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python cnn.py data/mhc2-pan.pkl.gz '+Inputname+' '+Resultname)
 	print("\nThe running is completed!\n")
 if mhc_class == "class2"  and predtype== 'tcr'  :
     os.system('THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 ' \
-        +'python /home/omics/DATA0/02_jeongyeon/Projects/DeepNeo_FINAL/cnn.py ' \
-        +'/home/omics/DATA0/02_jeongyeon/Projects/DeepNeo_FINAL/data/tcr2-pan.pkl.gz ' \
+        +'python cnn.py ' \
+        +'data/tcr2-pan.pkl.gz ' \
         + Inputname + ' ' \
         + Resultname)
     print ("\nThe running is completed!\n")
