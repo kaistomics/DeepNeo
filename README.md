@@ -40,6 +40,10 @@ The code can be run with Python=2.7 and Theano=1.0.4
 If you are using conda, you can set up environment using deepneo.yml file.
 
 Input file of the DeepNeo is three tab-separated file with HLA allele, peptide, and 0(for formatting purpose)
+
+Example input file can be found on data/class1_input.dat
+
+
 HLA alleles listed in data/All_prot_alignseq_369 can be predicted.
 
 
