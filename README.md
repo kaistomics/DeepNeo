@@ -26,8 +26,9 @@ Webserver for an updated version of DeepNeo is available at https://deepneo.net
 
 ## Download and install:
 
-Please download this github repo.
+Please download this github repo. This is for DeepNeo-v1 ONLY. Source code for DeepNeo-v2 is not provided.
 The code can be run with Python=2.7 and Theano=1.0.4
+If you are using conda, you can set up environment using deepneo.yml file.
 
 Input file of the DeepNeo is three tab-separated file with HLA allele, peptide, and 0(for formatting purpose)
 HLA alleles listed in data/All_prot_alignseq_369 can be predicted.
