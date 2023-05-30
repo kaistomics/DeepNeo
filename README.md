@@ -11,12 +11,18 @@ References :
 
 “MHC II immunogenicity shapes the neoepitope landscape in human tumors” Nature Genetics (2023)
 
+"DeepNeo: a webserver for predicting immunogenic neoantigens" Nucleic Acids Research (2023)
+
 
 ## Update:  
 
+DeepNeo-v2 is now available! This repo provides source code only for DeepNeo-v1. We recommend using web server version.
 Webserver for an updated version of DeepNeo is available at https://deepneo.net
 
 *The webserver is currently undergoing maintenance. It will be available again on 6/6/2023
 
 ![alt text](deepneo-web.png)
+
+
+## Download and install:
 
