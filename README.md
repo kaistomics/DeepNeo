@@ -15,13 +15,13 @@ References :
 
 
 ## Update:  
-**DeepNeo-v2 is now available as webserver!**
+**DeepNeo-v2 is now available as a webserver!**
 
 
-**This repo provides source code only for DeepNeo-v1. We recommend using web server version(DeepNeo-v2).**
+**This repo provides source code only for DeepNeo-v1.**
 
 
-**Webserver for an updated version of DeepNeo is available at https://deepneo.net**
+**We recommend using DeepNeo-v2 webserver available at https://deepneo.net**
 
 
 *The webserver is currently undergoing maintenance. It will be available again on 6/6/2023
