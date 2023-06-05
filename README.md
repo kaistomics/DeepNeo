@@ -24,8 +24,6 @@ References :
 **We recommend using DeepNeo-v2 webserver available at https://deepneo.net**
 
 
-*The webserver is currently undergoing maintenance. It will be available again on 6/6/2023
-
 ![alt text](deepneo-web.png)
 
 
